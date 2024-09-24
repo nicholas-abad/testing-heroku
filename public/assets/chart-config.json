@@ -1,0 +1,60 @@
+{
+    "16647921": {
+        "title": "CHINA",
+        "subtitle": "Coal-fired power under development by status and Chinese province, megawatts (MW)",
+        "x_axis": "Province",
+        "values": [
+            "Construction", "Permitted", "Pre-permit", "Announced"
+        ],
+        "dataset": "china_provinces_data",
+        "initial_state": "All",
+        "summary": "status_text",
+        "filterable": true,
+        "filter_by": [
+            "Construction", "Permitted", "Pre-permit", "Announced"
+        ]
+    },
+    "15821879": {
+        "title": "Coal plant capacity starting construction outside China is on track for record annual low",
+        "subtitle": "Coal-fired power capacity beginning construction outside China, in gigawatts (GW)",
+        "x_axis": "Period",
+        "values": [
+            "Yearly Construction Starts"
+        ],
+        "dataset": "data_construction",
+        "summary": null,
+        "filterable": false
+    },
+    "16566530": {
+        "title": "What is the age breakdown of coal plants?",
+        "subtitle": "Coal-fired power capacity by age and type of coal plants, in megawatts (MW)",
+        "x_axis": "decade",
+        "values": [
+            "CFB",
+            "IGCC",
+            "Subcritical",
+            "Supercritical",
+            "Ultra-supercritical",
+            "Unknown"
+        ],
+        "summary": null,
+        "dataset": "data_age",
+        "initial_state": "Global",
+        "filterable": true,
+        "filter_by": "Country"
+    },
+    "16644559": {
+        "title": "Which regions have coal capacity under development?",
+        "subtitle": "Coal-fired power under development by status and by region, in megawatts (MW)",
+        "x_axis": "Region",
+        "values": [
+            "Construction", "Permitted", "Pre-permit", "Announced"
+        ],
+        "dataset": "region_data",
+        "initial_state": "All",
+        "filterable": true,
+        "filter_by": [
+            "Construction", "Permitted", "Pre-permit", "Announced"
+        ]
+    }
+}
